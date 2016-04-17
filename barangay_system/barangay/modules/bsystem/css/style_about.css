@@ -1,0 +1,180 @@
+.main{
+	margin-top: 50px;
+}
+
+p{
+	text-align: justify;
+}
+
+.block-body{
+	width: 980px;
+	padding: 100px;
+	margin: 0 80px auto;
+	background-color: white;
+
+}
+
+.block-main{
+	/*border: 1px solid black;*/
+	margin-bottom: 50px;
+	width: 90%;
+
+}
+
+.block-1{
+	/*border: 1px solid black;*/
+	display: inline-block;
+	width: 300px;
+	height: 400px;
+	margin-bottom: 15px;
+	vertical-align: top;
+}
+
+.block-2{
+	/*border: 1px solid black;*/
+	width: 300px;
+	height: 400px;
+	display: inline-block;
+	margin-left: 30px;
+	margin-bottom: 15px;
+	vertical-align: top;
+	
+}
+
+.block-3{
+	/*border: 1px solid black;*/
+	width: 300px;
+	height: 400px;	
+	display: inline-block;
+	margin-left: 30px;
+	margin-bottom: 15px;
+	vertical-align: top;
+
+}
+
+.block-4{
+	/*border: 1px solid black;*/
+	width: 300px;
+	height: 400px;
+	display: inline-block;
+	margin-left: 150px;
+	margin-bottom: 15px;
+	vertical-align: top;
+	
+}
+
+.block-5{
+	/*border: 1px solid black;*/
+	width: 300px;
+	height: 400px;
+	display: inline-block;
+	margin-left: 30px;
+	margin-bottom: 15px;
+	vertical-align: top;
+	
+}
+
+.icon-pic{
+	border: 1px solid black;
+	border-radius: 50%;
+	width: 100px;
+	height: 100px;
+	margin-left: 35%;
+	margin-top: 10px;
+
+}
+
+img.ribbon{
+	margin-left: 37%;
+	margin-bottom: 10px;
+	width: 250px;
+}
+
+
+@media screen and (max-width: 900px) {
+
+.block-body{
+	width: 100%;
+	padding: 0;
+	padding-top: 30px;
+	margin: 0 ;
+	background-color: white;
+
+}
+img.icon-pic{
+	margin-left: 43%;
+}
+
+	img.ribbon{
+	margin-bottom: 0px;
+	width: 250px;
+	margin-left: 37%;
+
+}
+
+	div.block-main{
+		margin-left: 10px;
+		margin-bottom: 15px;
+		width: 95%
+	}
+	div.block-1{
+		margin-left: 10px;
+		margin-bottom: 15px;
+		width: 95%;
+	}
+	
+	div.block-2{
+		margin-left: 10px;
+		margin-bottom: 15px;
+		width: 95%;
+	}
+	
+	div.block-3{
+		margin-left: 10px;
+		margin-bottom: 15px;
+		width: 95%;
+	}
+	
+	div.block-4{
+		margin-left: 10px;
+		margin-bottom: 15px;
+		width: 95%;
+	}
+	div.block-5{
+		margin-left: 10px;
+		margin-bottom: 15px;
+		width: 95%;
+	}
+
+
+
+@media screen and (max-width: 500px) {
+
+	img.icon-pic{
+	margin-left: 35%;
+}
+
+.block-body{
+	padding-top: 30px;
+	background-color: white;
+
+}
+
+
+	div.nav ul li {
+		width: 50%;
+		font-size: 85%;
+	}
+
+	img.ribbon{
+	margin-left: 25%;
+	width: 60%;
+}
+	
+	
+	
+	.hide-mobile {
+		display: none;
+	}
+		
+}
